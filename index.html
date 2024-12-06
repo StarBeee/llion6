@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> cm → inch 변환기 </title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,0..100&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=calculate" />
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="material-symbols-outlined size-48">
+      calculate
+    </div>
+    <h1>
+      cm → inch
+    </h1>
+    <div class="display">
+
+      <!-- 결과 화면 -->
+      <div class="cmres">
+      <input type="number" id="cmInput" placeholder="▶ 값을 입력 하세요" /> cm
+      </div>
+
+
+      <div class="result" id="result"> </div>
+
+    </div>
+
+    <div class="buttons">
+      <!-- 버튼 -->
+      <button type="button" id="clearBtn">RESET</button>
+      <button type="button" id="convertBtn">CONVERT</button>
+    </div>
+  </div>
+  <div class="footers">
+    Copyright © 2024. Starbeee! All rights reserved.
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
